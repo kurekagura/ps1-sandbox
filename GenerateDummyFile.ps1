@@ -15,14 +15,14 @@ Specifies the size of the dummy file in bytes.
 File generation is performed using the System.Security.Cryptography.RandomNumberGenerator class.
 
 .EXAMPLE
-.\CreateDummyFile.ps1 -FilePath ".\2MB.bin" -FileSizeInBytes (2 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\4MB.bin" -FileSizeInBytes (4 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\8MB.bin" -FileSizeInBytes (8 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\16MB.bin" -FileSizeInBytes (16 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\32MB.bin" -FileSizeInBytes (32 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\64MB.bin" -FileSizeInBytes (64 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\128MB.bin" -FileSizeInBytes (128 * 1024 * 1024)
-.\CreateDummyFile.ps1 -FilePath ".\256MB.bin" -FileSizeInBytes (256 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\2MB.bin" -FileSizeInBytes (2 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\4MB.bin" -FileSizeInBytes (4 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\8MB.bin" -FileSizeInBytes (8 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\16MB.bin" -FileSizeInBytes (16 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\32MB.bin" -FileSizeInBytes (32 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\64MB.bin" -FileSizeInBytes (64 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\128MB.bin" -FileSizeInBytes (128 * 1024 * 1024)
+.\GenerateDummyFile.ps1 -FilePath ".\256MB.bin" -FileSizeInBytes (256 * 1024 * 1024)
 #>
 param (
     [string]$FilePath,
